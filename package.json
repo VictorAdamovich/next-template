@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -32,7 +33,6 @@
     "@storybook/react": "^7.0.26",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.12",
     "storybook": "^7.0.26"
   }
